@@ -23,7 +23,7 @@ const About = () => {
   ];
   return (
     <div className="flex flex-col justify-center items-center w-full">
-      <div className="flex flex-col justify-center items-center gap-2 w-full ">
+      <div className="flex flex-col justify-center items-center gap-2 md:w-2/3 ">
         <h1 className="text-3xl font-bold">About Me</h1>
         <div className="flex w-full text-start font-semibold">
           Namaste 🙏 I'm Ankur, a Computer Science Engineer from India. With a
@@ -49,7 +49,7 @@ const About = () => {
       </div>
       <div className="flex flex-col justify-center items-center gap-2 w-full ">
         <h1 className="text-3xl font-bold text-center">My Skills</h1>
-        <div className="flex justify-center items-center gap-2 flex-wrap">
+        <div className="flex justify-center items-center gap-2 flex-wrap md:w-2/3">
           {skills.map((skill) => (
             <button className="bg-zinc-200 p-2 rounded-xl text-center text-black w-40 hover:bg-gray-300">
               {skill}

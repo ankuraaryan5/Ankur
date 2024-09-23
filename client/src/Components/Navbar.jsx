@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-[10vh] px-4 w-full ">
       <div className="flex justify-center items-start">
-        <h1 className="text-3xl md:text-5xl font-bold">Ankur</h1>
+        <h1 className="text-3xl md:text-5xl font-bold text-gray-700">अंकुर</h1>
       </div>
 
       <div className="flex justify-center items-center gap-4">
