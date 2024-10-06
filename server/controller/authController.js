@@ -11,7 +11,7 @@ export const verifyUser = async (req, res) => {
     const token = jwt.sign({ id: email }, process.env.JWT_SECRET, {
         expiresIn: process.env.JWT_EXPIRES_IN,
     });
-    if (email=="ankuraaryan5@gmail.com" && password=="123456789") {
+    if (email=="portfoliolive@gmail.com" && password=="123456789") {
         res.status(200).json({ message: "Login Successfull", token });
     } else {   
         res.status(400).json({ message: "Login Failed" });
