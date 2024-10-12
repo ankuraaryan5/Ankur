@@ -2,7 +2,7 @@ import React from "react";
 
 function Blogger() {
   const handleSubmit=()=>{
-    console.log(data);
+    console.log("just a commit");
   }
   return (
     <div className="flex flex-col justify-center items-center w-full gap-4">
